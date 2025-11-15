@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace BOOSEAppASE | BOOSEDocSite </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace BOOSEAppASE | BOOSEDocSite ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSEDocSite">
+            BOOSEDocSite
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="BOOSEAppASE">
+
+  <h1 id="BOOSEAppASE" data-uid="BOOSEAppASE" class="text-break">Namespace BOOSEAppASE</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEAppASE.AppCanvas.html">AppCanvas</a></dt>
+      <dd><p>A class creating a canvas interface for BOOSE, implementing <span class="xref">BOOSE.ICanvas</span>.
+Provides a number of methods for drawing/editing including <a class="xref" href="BOOSEAppASE.AppCanvas.html#BOOSEAppASE_AppCanvas_Circle_System_Int32_System_Boolean_">Circle(int, bool)</a>, <a class="xref" href="BOOSEAppASE.AppCanvas.html#BOOSEAppASE_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_">Rect(int, int, bool)</a>, <a class="xref" href="BOOSEAppASE.AppCanvas.html#BOOSEAppASE_AppCanvas_MoveTo_System_Int32_System_Int32_">MoveTo(int, int)</a> and <a class="xref" href="BOOSEAppASE.AppCanvas.html#BOOSEAppASE_AppCanvas_DrawTo_System_Int32_System_Int32_">DrawTo(int, int)</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEAppASE.AppCircle.html">AppCircle</a></dt>
+      <dd><p>A class to create the updated Circle command, referenced in the <a class="xref" href="BOOSEAppASE.AppCommandFactory.html">AppCommandFactory</a>.
+The class overrides BOOSE limitations, allowing a circle of any size to be drawn on the canvas.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEAppASE.AppCommandFactory.html">AppCommandFactory</a></dt>
+      <dd><p>A command factory that overrides or extends the original BOOSE <span class="xref">BOOSE.CommandFactory</span>.
+Commands are created in this class to overcome limitations in the base Command Factory.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEAppASE.AppMoveTo.html">AppMoveTo</a></dt>
+      <dd><p>A class to create the updated Moveto command, referenced in the <a class="xref" href="BOOSEAppASE.AppCommandFactory.html">AppCommandFactory</a>.
+The class overrides BOOSE limitations, allowing the pen to be moved to any point on the canvas with x and y coordinate values.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEAppASE.AppRect.html">AppRect</a></dt>
+      <dd><p>A class to create the updated Rectangle command, referenced in the <a class="xref" href="BOOSEAppASE.AppCommandFactory.html">AppCommandFactory</a>.
+The class overrides BOOSE limitations, allowing a rectangle of any width and height to be drawn on the canvas.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEAppASE.Form1.html">Form1</a></dt>
+      <dd><p>The primary User Interface for drawing with BOOSE, extending <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form">Form</a>.
+Creates a physical interface with a command input box, drawing canvas box, run button and an error output box.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
