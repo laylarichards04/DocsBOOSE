@@ -1,0 +1,181 @@
+{
+  "source_base_path": "C:/Users/layla/source/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppASE.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEAppASE.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppASE.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEAppASE.AppCanvas.yml\" sourcestartlinenumber=\"1\">A class creating a canvas interface for BOOSE, implementing <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref>.\nProvides a number of methods for drawing/editing including <xref href=\"BOOSEAppASE.AppCanvas.Circle(System.Int32%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"BOOSEAppASE.AppCanvas.Rect(System.Int32%2cSystem.Int32%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"BOOSEAppASE.AppCanvas.MoveTo(System.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"BOOSEAppASE.AppCanvas.DrawTo(System.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppASE.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEAppASE.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppASE.AppCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEAppASE.AppCircle.yml\" sourcestartlinenumber=\"1\">A class to create the updated Circle command, referenced in the <xref href=\"BOOSEAppASE.AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref>.\nThe class overrides BOOSE limitations, allowing a circle of any size to be drawn on the canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppASE.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEAppASE.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppASE.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSEAppASE.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">A command factory that overrides or extends the original BOOSE <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref>.\nCommands are created in this class to overcome limitations in the base Command Factory.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppASE.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEAppASE.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppASE.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSEAppASE.AppMoveTo.yml\" sourcestartlinenumber=\"1\">A class to create the updated Moveto command, referenced in the <xref href=\"BOOSEAppASE.AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref>.\nThe class overrides BOOSE limitations, allowing the pen to be moved to any point on the canvas with x and y coordinate values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppASE.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEAppASE.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppASE.AppRect",
+      "Summary": "<p sourcefile=\"api/BOOSEAppASE.AppRect.yml\" sourcestartlinenumber=\"1\">A class to create the updated Rectangle command, referenced in the <xref href=\"BOOSEAppASE.AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref>.\nThe class overrides BOOSE limitations, allowing a rectangle of any width and height to be drawn on the canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppASE.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEAppASE.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppASE.Form1",
+      "Summary": "<p sourcefile=\"api/BOOSEAppASE.Form1.yml\" sourcestartlinenumber=\"1\">The primary User Interface for drawing with BOOSE, extending <xref href=\"System.Windows.Forms.Form\" data-throw-if-not-resolved=\"false\"></xref>.\nCreates a physical interface with a command input box, drawing canvas box, run button and an error output box.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppASE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEAppASE.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppASE",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETest.BOOSEUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETest.BOOSEUnitTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETest.BOOSEUnitTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETest",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
